@@ -1,10 +1,7 @@
 #twoja mama
 ##łatwo z nią
 no u
-bay bay
-JHOIUAFGNOUAFHBIUO:aq no:uigboisab ep}(j powatj po
-jhahahahhahah kod goes brrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr
-AAAAA
+jijoasdjiodsajoisadjoiasdijsdijdsjiosdijdsijdsijdsjoidsijdsijdsijdsijsdaijodsajiosdajiosdaijoodsaiojdsijdsakjldsalkjsdakljsadkljsadjklsadlkjsdajkldsakljdsakljsdajklsdakljdsajklsadkljsdakljsdaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaalajsdo'pajersaujoldur;oeru;osaieru;seras;lkejkrljdjkffffffffffffffffffffffjjjjjjjjjjjjjjjjjjjjjfjjjfjjkfkjdjkjkfkkjjkdfkjjkfdkjkjfjkdjkkjfdkjjkdfkjkkjdfjkjkdfkjfdkjfdkjdfkjfdskjdfkljfdjlkdfsjlkdsfkjldfsl;kjazsldfjaspjuro[aweur[owiuoWER[W E IRYOerP;/W ERPW' ERE ŁADNA JEST BAŁDZO :)
 
 
 jedziemy po torach i się wykolejamy
