@@ -6,7 +6,7 @@ JHOIUAFGNOUAFHBIUO:aq no:uigboisab ep}(j powatj po
 jhahahahhahah kod goes brrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr
 
 
-jedziemy po torach i się wykolejamy
-ciekawa ta wycieczka
+jedziemy po torach i się wykolejamy.
+Ciekawa ta wycieczka.
 jesteśmy po środku niczego
 
