@@ -9,3 +9,4 @@ ciekawa ta wycieczka
 jesteśmy po środku niczego
 
 sfakfhjksgsahfjasgfbakshlfnasjbkhfuyghijlk;jihugytdfxcvnbjkiuytrhg 
+proste
