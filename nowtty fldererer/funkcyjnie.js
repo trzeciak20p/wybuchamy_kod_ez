@@ -1,7 +1,5 @@
 
-document.getElementById("ae").querySelector("[name=submit]").addEventListener("click", ( ) => {
-    submitHandler( this )
-})
+document.querySelector("[name=submit]").addEventListener("click", submitHandler)
 
 function display(text){
     document.getElementById("display").innerText = text
@@ -14,7 +12,7 @@ function getInputValue(form, inputName){
 
 function validateForm(form){
     let userName = getInputValue(form, "imie")
-    let userPassword = getUserPassword(form, "haslo")
+    let userPassword = getInputValue(form, "haslo")
 
     if(userName.length == 0){
         return "Imie musi istnieć!"
@@ -23,11 +21,11 @@ function validateForm(form){
         return "Haslo musi mieć conajmniej 6 znaków!"
     }
     
-    return `Witaj ${userName}. TWoje hasło jest poprawne B)`
+    return `Witaj ${userName}. Twoje hasło jest poprawne B)`
 }
 
-function submitHandler(button){
-    const form1 = button.parentNode
+function submitHandler(){
+    const form1 = this.parentNode
     display( validateForm(form1))
 
     return
