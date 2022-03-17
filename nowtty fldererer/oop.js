@@ -16,9 +16,10 @@ class Form{
         this.DOMreference = DOMreference
         this.nameInput = DOMreference.querySelector(`[name=imie]`)
         this.passworrdInput = DOMreference.querySelector(`[name=password]`)
+        console.log(this.nameInput)
     }
 
-    validate(display){
+    validate (display){
 
         if(this.nameInput.value.length == 0){
             display.show("Imie musi istnieć!")
@@ -34,6 +35,6 @@ class Form{
 
 let d1 = new Display(document.getElementById("display"))
 let form1 = new Form( document.getElementById("ae") )   
-document.querySelector("[name=submit]").addEventListener("click", ( ) => {form1.validate(d1)})
+document.querySelector("[name=submit]").addEventListener("click", ( ) => {form1.validate(d1).bind(this)})
 
     
