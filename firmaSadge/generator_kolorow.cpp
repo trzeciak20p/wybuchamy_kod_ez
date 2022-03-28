@@ -19,17 +19,18 @@ int main(int argc, char const *argv[]){
 int main(int argc, char const *argv[]){
 
     string tab[4] = {"spalinowy", "elektryczny", "hybryda", "diesel"};
-    bool t[150];
+    
     int ile = 200;
-
+    bool t[ile];
+    
     for(int i = 0; i < 150; i++){
         t[i] = false;
     }
 
     for(int i = 0; i < ile; i++){
-        int x = rand() % 150;
+        int x = rand() % ile;
         while(t[x]){
-            x = rand() % 150;
+            x = rand() % ile;
         }
         cout << x << endl;
         t[x] = true;
