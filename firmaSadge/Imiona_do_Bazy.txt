@@ -1,150 +1,150 @@
-Hatsume Miku
-Kirigaya Kazuto
-Yuuki Asuna
-Uzumaki Naruto
-Uchicha Sasuke
-Uchicha Itachi
-Uchicha Madara
-Uchicha Obito
-Hatake Kakashi
-Hyuga Hinata
-Hyuga Neji
-Bell Claner
-Ais Wallenstien
-Uzumaki Kushina 
-Namikaze Minato
-Senju Hashirama 
-Senju Tobirama 
-Seju Tsunade
-Nara Shikamaru
-Haruno Sakura
-Deviluke Lala
-Deviluke Momo
-Deviluke Nana
-Yuuki Rito
-Yuuki Mikkan
-Sairenji Haruna
-Kotegawa Yui
-Midoria Izuku
-Bakugou Katsuki 
-Todoroki Shoto
-Ayoama Yuga 
-Ashido Mina 
-Asui Tsuyu
-Iida Tenya
-Uraraka Ochaco
-Ojiro Mashirao
-Kaminari Denki
-Kirishima Eijiro
-Koda Koji
-Sato Rikido 
-Shoji Mezo
-Jiro Kyoka
-Sero Hanta 
-Tokoyami Fumikage
-Hagakure Toru
-Yaouorozu Momo
-Kendo Itsuka
-Shinozaki Ibara
-Tetsutetsu Tetsutetsu
-Shinso Hitoshi 
-Hatsume Mei
-Aizawa Shota 
-Togata Mirio
-Shigaraki Tomura
-Hado Nejire
-Amijaki Tamaki
-Himiko Toga
-Ohto Ai
-Yagami Light
-Kamado Tajiro
-Kamado Nezuko
-Agatsumo Zenitsu
-Hashiraba Inosuke
-Rengoku Kyojuro
-Tomioka Giyu
-Tengen Uzui
-Natsuki Subaru
-Kozume Kenma
-Nishinoya Yu
-Oikawa Toru
-Kageyama Tobio
-Tsukishima Kei
-Sugarawa Koshi
-Sawamura Daichi
-Tanaka Ryunosuke
-Bokuto Kotaro
-Shimizu Kiyoko
-Kuroo Tetsuro
-Hinata Shoyo
-Ukai Keishin
-Yachi Hitoka
-Azumane Asahi
-Jaeger Eren
-Ackerman Mikasa
-Ackerman Levi
-Shmit Erwin
-Kirstein Jean
-Springer Connie
-Zoe Hanji
-Braus Sasha 
-Ackerman Kenny
-Shadis Keith
-Jeager Grisha
-Jeager Carla
-Jeager Zeke
-Kruger Eren
-Foster Floch
-Endou Mamoru
-Kazemaru Ichirouta
-Kabeyama Heigoru
-Gouenji Shuuya
-Someoka Ryuugo
-Domon Asuka
-Kidou Yuuto
-Fubuki Shirou
-Fubuki Atsuya
-Tobioka Seiya
-Terumi Afuro
-Utsunomiya Toramaru
-Fudou Akio
-Sakuma Jirou
-Kiyama Hirito
-Midorikawa Ryuji
-Nagumo Haruya
-Suzuno Fuusuke
-Endou Kanon
-Endou Daisuke
-Kageyama Reijii
-Fuyuka Kudou
-Tsurugi Kyousuke
-Matsukaze Tenma
-Shindou Takuto
-Shinsuke Nishizono
-Tsurugi Yuuichi
-Kageyama Hikaru
-Ash Ketchum
-Arima Kosei
-Miyazono Kaori
-Sawabe Tsubaki
-Watari Ryota
-Aiza Takeshi
-Igawa Emi
-Amane Misa
-Yagami Soichiro
-Pappitson Charmy
-Sukehiro Yami
-Silva Noelle
-Yamanaka Ino
-Rock Lee
-Sarutobi Asuma
-Sarutobi Konohamaru
-Guy Might
-Akimichi Choji
-Inuzuka Kiba
-Yuhi Kurenai
-Aburame Shino
-Kuso Dan
-Kazami Shun
-Marukura Marucho
-Gehabich Alice
+Ai
+Light
+Tajiro
+Nezuko
+Zenitsu
+Inosuke
+Kyojuro
+Giyu
+Uzui
+Subaru
+Kenma
+Yu
+Toru
+Tobio
+Kei
+Koshi
+Daichi
+Ryunosuke
+Kotaro
+Kiyoko
+Tetsuro
+Shoyo
+Keishin
+Hitoka
+Asahi
+Eren
+Mikasa
+Levi
+Erwin
+Jean
+Connie
+Hanji
+Sasha 
+Kenny
+Keith
+Grisha
+Carla
+Zeke
+Eren
+Floch
+Mamoru
+Ichirouta
+Heigoru
+Shuuya
+Ryuugo
+Asuka
+Yuuto
+Shirou
+Atsuya
+Seiya
+Afuro
+Toramaru
+Akio
+Jirou
+Hirito
+Ryuji
+Haruya
+Fuusuke
+Kanon
+Daisuke
+Reijii
+Kudou
+Kyousuke
+Tenma
+Takuto
+Nishizono
+Yuuichi
+Hikaru
+Ash 
+Kosei
+Kaori
+Tsubaki
+Ryota
+Takeshi
+Emi
+Misa
+Soichiro
+Charmy
+Yami
+Noelle
+Ino
+Lee
+Asuma
+Konohamaru
+Might
+Choji
+Kiba
+Kurenai
+Shino
+Dan
+Shun
+Marucho
+Alice
+Miku
+Kazuto
+Asuna
+Naruto
+Sasuke
+Itachi
+Madara
+Obito
+Kakashi
+Hinata
+Neji
+Claner
+Wallenstien
+Kushina 
+Minato
+Hashirama 
+Tobirama 
+Tsunade
+Shikamaru
+Sakura
+Lala
+Momo
+Nana
+Rito
+Mikkan
+Haruna
+Yui
+Izuku
+Katsuki 
+Shoto
+Yuga 
+Mina 
+Tsuyu
+Tenya
+Ochaco
+Mashirao
+Denki
+Eijiro
+Koji
+Rikido 
+Mezo
+Kyoka
+Hanta 
+Fumikage
+Toru
+Momo
+Itsuka
+Ibara
+Tetsutetsu
+Hitoshi 
+Mei
+Shota 
+Mirio
+Tomura
+Nejire
+Tamaki
+Toga
