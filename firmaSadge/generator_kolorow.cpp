@@ -17,13 +17,11 @@ int main(int argc, char const *argv[]){
 // losowanie niepowtarzalnych liczb
 
 int main(int argc, char const *argv[]){
-
-    string tab[4] = {"spalinowy", "elektryczny", "hybryda", "diesel"};
     
     int ile = 200;
     bool t[ile];
     
-    for(int i = 0; i < 150; i++){
+    for(int i = 0; i < ile; i++){
         t[i] = false;
     }
 
