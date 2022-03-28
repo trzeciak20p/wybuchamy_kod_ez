@@ -50,7 +50,7 @@ Fubuki
 Tobioka 
 Terumi 
 Utsunomiya 
-Fudou
+Fudou 
 Sakuma 
 Kiyama 
 Midorikawa 
@@ -66,7 +66,7 @@ Shindou
 Shinsuke 
 Tsurugi 
 Kageyama 
-Ketchup
+Ketchup 
 Arima 
 Miyazono 
 Sawabe 
@@ -146,5 +146,5 @@ Aizawa
 Togata 
 Shigaraki 
 Hado 
-Amijaki
-Himiko
+Amijaki 
+Himiko 
