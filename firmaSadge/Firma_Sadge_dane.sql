@@ -355,3 +355,58 @@ VALUES
     ('75', 'elektryczny', 'Automet', 'żółty', '70'),
 
 
+Wiele do wielu dodać międzu liniami a autobusami
+
+INSERT INTO Linie (ID_Lini) values ()
+
+numer lini
+33
+36
+27
+15
+43
+35
+42
+49
+21
+12
+40
+9
+13
+26
+22
+11
+18
+17
+29
+32
+30
+23
+2
+8
+19
+6
+34
+37
+48
+24
+20
+41
+46
+31
+5
+25
+7
+45
+14
+50
+28
+38
+3
+1
+4
+10
+39
+44
+47
+16
