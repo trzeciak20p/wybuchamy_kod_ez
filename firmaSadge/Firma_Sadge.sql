@@ -45,8 +45,8 @@ CREATE TABLE Autobusy_Linie
 CREATE TABLE Cenniki
 (
     ID_Cennika INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
-    Cena_Ulgowa INT,
-    Cena_Normalna INT
+    Cena_Ulgowa FLOAT,
+    Cena_Normalna FLOAT
 );
 
 CREATE TABLE Kursy
