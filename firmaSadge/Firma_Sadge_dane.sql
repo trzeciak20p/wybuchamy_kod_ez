@@ -99,7 +99,7 @@ VALUES
     ('Naruto', 'Uzumaki', 5794, '21-06-2049'),
     ('Sasuke', 'Uchicha', 5192, '17-05-2103'),
     ('Itachi', 'Uchicha', 4503, '02-09-2034'),
-    ('Madara', 'Uchicha', 5638 '24-11-2046'),
+    ('Madara', 'Uchicha', 5638, '24-11-2046'),
     ('Obito', 'Uchicha', 5717, '15-05-2027'),
     ('Kakashi', 'Hatake', 4598, '26-03-2050'),
     ('Hinata', 'Hyuga', 4663, '15-01-2082'),
@@ -121,7 +121,7 @@ VALUES
     ('Haruna', 'Sairenji', 5163, '02-11-2078'),
     ('Yui', 'Kotegawa', 5339, '22-12-2129'),
     ('Izuku', 'Midoria', 5689, '13-11-2077'),
-    ('Katsuki ', 'Bakugou', 4010, '12-01-2067'),
+    ('Katsuki', 'Bakugou', 4010, '12-01-2067'),
     ('Shoto', 'Todoroki', 5719, '13-09-2040'),
     ('Yuga ', 'Ayoama', 4496, '06-02-2046'),
     ('Mina ', 'Ashido', 4924, '22-11-2038'),
@@ -144,12 +144,12 @@ VALUES
     ('Tetsutetsu', 'Tetsutetsu', 5251, '20-11-2043'),
     ('Hitoshi ', 'Shinso', 4160, '31-01-2031'),
     ('Mei', 'Hatsume', 4109, '18-03-2127'),
-    ('Shota ', 'Aizawa', 5260 '12-02-2075'),
+    ('Shota ', 'Aizawa', 5260, '12-02-2075'),
     ('Mirio', 'Togata', 5610, '26-09-2076'),
     ('Tomura', 'Shigaraki', 5812, '25-02-2041'),
     ('Nejire', 'Hado', 5221, '02-08-2064'),
     ('Tamaki', 'Amijaki', 4264, '13-09-2009'),
-    ('Toga', 'Himiko', 4974, '01-11-2026')
+    ('Toga', 'Himiko', 4974, '01-11-2026');
 
 INSERT INTO Autobusy (ID_Kierowcy, Rodzaj, Marka, Kolor, Ilosc_Miejsc)
 VALUES
@@ -233,7 +233,7 @@ VALUES
     (17, 'spalinowy', 'Automet', 'czarny', 100),
     (51, 'diesel', 'Fiat', 'niebiesko-biały', 110),
     (47, 'hybryda', 'Opel', 'różowy', 105),
-    (2 'diesel', 'Solaris', 'niebiesko-biały', 70),
+    (2, 'diesel', 'Solaris', 'niebiesko-biały', 70),
     (52, 'spalinowy', 'Fiat', 'czarny', 80),
     (1, 'spalinowy', 'Mercedes', 'czarny', 110),
     (15, 'hybryda', 'Fiat', 'różowy', 90),
@@ -555,7 +555,9 @@ INSERT INTO Autobusy_Linie (ID_Linii, ID_Autobusu) values
 (29, 199),
 (30, 200),
 
-INSERT INTO Linie ("numer") values 
+
+
+INSERT INTO Linie (numer) values 
 (33),
 (36),
 (27),
@@ -630,10 +632,10 @@ insert into Cenniki (Cena_Ulgowa, Cena_Normalna) values
 (12.70, 32.48),
 (12.70, 32.48),
 (5.10, 7.27),
-(5.70, 10.26),
-(6.70, 10.26),
-(5.70, 10.26),
-(5.30, 10.26),
+(5.70, 7),
+(6.70, 10.20),
+(5.70, 10.30),
+(5.30, 10.30),
 (5.30, 10.26),
 (5.30, 10.26),
 (5.30, 10.26),
@@ -872,6 +874,7 @@ VALUES
     ("","Żerniki Osiedle"),
     ("","Żerniki Rogozińskiego");
 
+
 insert into Kursy (ID_Cennika, ID_Linii) values 
 (1, 1),
 (2, 2),
@@ -923,6 +926,4 @@ insert into Kursy (ID_Cennika, ID_Linii) values
 (48, 48),
 (49, 49),
 (50, 50)
-
-
 
