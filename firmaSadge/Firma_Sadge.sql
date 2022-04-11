@@ -28,7 +28,7 @@ CREATE TABLE Autobusy
 CREATE TABLE Linie
 (
     ID_Linii INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
-    Numer INT,
+    Numer INT
 
 );
 
