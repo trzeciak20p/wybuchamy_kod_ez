@@ -5,8 +5,8 @@
     - Kierowcy
     - Autobusy
     - Autobusy-Linie
+    - Przystanki
 
 # TO DO
     - Przyjazdy
-    - Przystanki
     - Przystanki-Przyjazdy
