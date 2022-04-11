@@ -29,7 +29,6 @@ CREATE TABLE Linie
 (
     ID_Linii INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
     Numer INT,
-    ID_Autobusu INT
 
 );
 
