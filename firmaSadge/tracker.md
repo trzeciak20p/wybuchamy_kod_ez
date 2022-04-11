@@ -6,8 +6,9 @@
     - Autobusy
     - Autobusy-Linie
     - Przystanki
+    - Kursy-Przystanki
 
 # TO DO
     - Przyjazdy
     - Przystanki-Przyjazdy
-    - Kursy-Przystanki
+
