@@ -1,8 +1,8 @@
-DROP DATABASE IF EXISTS Firma_Sadge;
+DROP DATABASE IF EXISTS Firma_Sadge_V4;
 
-CREATE DATABASE Firma_Sadge;
+CREATE DATABASE Firma_Sadge_V4;
 
-USE Firma_Sadge;
+USE Firma_Sadge_V4;
 
 CREATE TABLE Kierowcy
 (
