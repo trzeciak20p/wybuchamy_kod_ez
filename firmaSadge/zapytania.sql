@@ -55,3 +55,5 @@ ON Linie.ID_Linii = Autobusy_Linie.ID_Linii
 INNER JOIN Autobusy
 ON Autobusy.ID_Autobusu = Autobusy_Linie.ID_Autobusu
 WHERE Autobusy.rodzaj = "elektryczny";
+
+-- left join
