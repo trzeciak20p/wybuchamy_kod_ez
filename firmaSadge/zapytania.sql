@@ -56,4 +56,4 @@ INNER JOIN Autobusy
 ON Autobusy.ID_Autobusu = Autobusy_Linie.ID_Autobusu
 WHERE Autobusy.rodzaj = "elektryczny";
 
--- left join
+-- left join / avg / view / 
