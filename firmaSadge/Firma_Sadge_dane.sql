@@ -761,7 +761,7 @@ VALUES
     ("wq","Gliwice Warszawska II"),
     ("ew","Gliwice Wrocławska"),
     ("re","Gliwice Wyspiańskiego"),
-    ("tr","Gliwice Zabrska"),
+    ("ae","Gliwice Zabrska"),
     ("yt","Gliwice Zajezdnia"),
     ("uy","Gliwice Zakład Energetyczny"),
     ("iu","Gliwice Zakład Opla "),
