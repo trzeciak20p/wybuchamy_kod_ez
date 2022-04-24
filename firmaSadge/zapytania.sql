@@ -1,14 +1,33 @@
--- 1. Wyświetl kierowców, ich wypłatę, autobusy którymi jeżdżą i ich rodzaj z marką, których wypłata jest wiksza niż 5500 pogrupowanych po kierowcach
+-- 1. Wyświetl kierowców, ich wypłatę, autobusy którymi jeżdżą i ich rodzaj z marką, których wypłata jest wiksza niż średnia wypłata kierowców
 
 SELECT Autobusy.ID_Autobusu, Autobusy.Rodzaj, Autobusy.Marka, concat(Kierowcy.Nazwisko_Kierowcy, " ", Kierowcy.Imie_Kierowcy) Kierowca, kierowcy.Wyplata
 FROM Autobusy
 INNER JOIN Kierowcy
 ON Autobusy.ID_Kierowcy = Kierowcy.ID_Kierowcy
-WHERE Kierowcy.Wyplata > 5500
+where Kierowcy.Wyplata > (select avg(Kierowcy.Wyplata) from Kierowcy)
 GROUP BY Kierowcy.ID_Kierowcy;
 
 -- 2. Wyśiwetl kierowców którzy mają kursy od XX:XX:XX do XX:XX:XX
-
+create view Kierowcy_godzinach_6_16 as 
+SELECT Kierowcy.Imie_Kierowcy, Kierowcy.Nazwisko_Kierowcy 
+from Kierowcy
+inner JOIN Autobusy 
+on Autobusy.ID_Kierowcy = Kierowcy.ID_Kierowcy
+inner JOIN Autobusy_Linie
+ON Autobusy_Linie.ID_Autobusu = Autobusy.ID_Autobusu
+inner JOIN Linie
+ON Linie.ID_Linii = Autobusy_Linie.ID_Linii
+inner JOIN Kursy
+ON Kursy.ID_Linii = Linie.ID_Linii
+INNER JOIN Kursy_Przystanki
+ON Kursy_Przystanki.ID_Kursu = Kursy.ID_Kursu
+INNER JOIN Przystanki
+ON Przystanki.ID_Przystanku = Kursy_Przystanki.ID_Przystanku
+INNER JOIN Przyjazdy_Przystanki
+ON Przystanki.ID_Przystanku = Przyjazdy_Przystanki.ID_Przystanku
+inner JOIN Przyjazdy
+ON Przyjazdy_Przystanki.ID_Przyjazdu = Przyjazdy.ID_Przyjazdu
+where Przyjazdy.Godzina_Przyjazdu between "06:00:00" and "16:00:00" group by Kierowcy.ID_Kierowcy;
 
 
 
