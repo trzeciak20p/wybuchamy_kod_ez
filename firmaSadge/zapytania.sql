@@ -7,7 +7,7 @@ ON Autobusy.ID_Kierowcy = Kierowcy.ID_Kierowcy
 where Kierowcy.Wyplata > (select avg(Kierowcy.Wyplata) from Kierowcy)
 GROUP BY Kierowcy.ID_Kierowcy;
 
--- 2. Wyśiwetl kierowców którzy mają kursy od XX:XX:XX do XX:XX:XX
+-- 2. Wyśiwetl kierowców którzy mają kursy od 06:00:00 do 16:00:00
 create view Kierowcy_godzinach_6_16 as 
 SELECT Kierowcy.Imie_Kierowcy, Kierowcy.Nazwisko_Kierowcy 
 from Kierowcy
@@ -31,7 +31,7 @@ where Przyjazdy.Godzina_Przyjazdu between "06:00:00" and "16:00:00" group by Kie
 
 
 
--- 3. Wyświetl przyjazdy od XX:XX:XX do XX:XX:XX dla których cena ulgowa jest mniejsza niż 5 i dla tych gdzie cena normalna jest mniejsza od 8
+-- 3. Wyświetl przyjazdy od 13:00:00 do 22:00:00 dla których cena ulgowa jest mniejsza niż 5 i dla tych gdzie cena normalna jest mniejsza od 8
 SELECT Przyjazdy.ID_Przyjazdu, Cenniki.Cena_Ulgowa
 FROM Przyjazdy
 INNER JOIN Przyjazdy_Przystanki
@@ -90,4 +90,10 @@ INNER JOIN Autobusy
 ON Autobusy.ID_Autobusu = Autobusy_Linie.ID_Autobusu
 WHERE Autobusy.rodzaj = "elektryczny";
 
--- left join / avg / view / 
+-- 5. Wyświetl kierowców którzy nie mają przypisanych autobusów
+
+SELECT Autobusy.ID_Autobusu, Kierowcy.Nazwisko_Kierowcy, Kierowcy.Imie_Kierowcy
+FROM Kierowcy
+LEFT JOIN Autobusy
+ON Kierowcy.ID_Kierowcy = Autobusy.ID_Kierowcy
+WHERE Autobusy.ID_Kierowcy IS NULL
