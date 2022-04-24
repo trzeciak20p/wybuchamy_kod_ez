@@ -25,6 +25,21 @@ INNER JOIN Kursy
 ON Kursy.ID_Kursu = Kursy_Przystanki.ID_Kursu
 INNER JOIN Cenniki
 ON Cenniki.ID_Cennika = Kursy.ID_Cennika
+where Cenniki.Cena_Ulgowa < 5 and Przyjazdy.Godzina_Przyjazdu between "13:00:00" and "22:00:00"
+intersect
+SELECT Przyjazdy.ID_Przyjazdu, Cenniki.Cena_Ulgowa
+FROM Przyjazdy
+INNER JOIN Przyjazdy_Przystanki
+ON Przyjazdy_Przystanki.ID_Przyjazdu = Przyjazdy.ID_Przyjazdu
+INNER JOIN Przystanki
+ON Przystanki.ID_Przystanku = Przyjazdy_Przystanki.ID_Przystanku
+INNER JOIN Kursy_Przystanki
+ON Przystanki.ID_Przystanku = Kursy_Przystanki.ID_Przystanku
+INNER JOIN Kursy
+ON Kursy.ID_Kursu = Kursy_Przystanki.ID_Kursu
+INNER JOIN Cenniki
+ON Cenniki.ID_Cennika = Kursy.ID_Cennika
+where Cenniki.Cena_Normalna < 8 and Przyjazdy.Godzina_Przyjazdu between "13:00:00" and "22:00:00"
 
 -- 4. Wyświetl przystanki i ich ulice na które przyjeżdżają autobusy hybrydowe i elektryczne 
 
